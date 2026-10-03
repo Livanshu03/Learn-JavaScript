@@ -20,7 +20,7 @@ console.log("num2 = " + num2)
 
 // In heap memory all the non premitive data types are stored i.e. they follow call by reference in this actual data is passsed i.e. they will have same refernce 
 
-let obj1 = { // original value here obj1 is an object
+let obj1 = {  // original value , here obj1 is an object
     name : "Livanshu",
     email : "xyz@google.com"
 }
