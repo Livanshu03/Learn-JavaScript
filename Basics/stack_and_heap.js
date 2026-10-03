@@ -22,15 +22,16 @@ console.log("num2 = " + num2)
 
 let obj1 = {  // original value , here obj1 is an object
     name : "Livanshu",
-    email : "xyz@google.com"
+    email : "xyz@google.com", 
+    age : 23
 }
 
 let obj2 = obj1 // the original value is shared i.e. they both object refer to same location in memory
 
 obj2.email = "wxu@gmail.com" // changes will affect both obj
 
-console.log("eamil of obj1 = " + obj1.email)
-console.log("eamil of obj2 = " + obj2.email)
+console.log("email of obj1 = " + obj1.email)
+console.log("email of obj2 = " + obj2.email)
 
 // // output->
 // eamil of obj1 = wxu@gmail.com
